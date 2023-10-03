@@ -127,3 +127,4 @@ function gameOver() {
        // show final score
        finalScore.textContent = correctAns;
     }
+localStorage.highScoreSection();

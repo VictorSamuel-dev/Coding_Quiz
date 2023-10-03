@@ -24,3 +24,48 @@ body{
     color: var(--dark-color);
     background-color: var(--grey-color);
 }
+
+h1, 
+h2 {
+    color: var(--dark-color);
+    font-family: 'Poppins', sans-serif;
+}
+
+a {
+    color: var(--light-purple-color);
+    font-family: 'Poppins', sans-serif;
+}
+
+a:hover {
+    color: var(--light-color);
+    font-family: 'Poppins', sans-serif;
+}
+
+.btn:focus, .btn:active, .btn:visited {
+    outline: none !important;
+    box-shadow: none !important;
+    background-color: var(--light-purple-color);
+}
+
+#finalScore {
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+}
+
+span {
+    font-family: 'Poppins', sans-serif;
+}
+
+p {
+    font-family: 'Poppins', sans-serif;
+}
+
+#questionTitle {
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+
+#answerCheck {
+    font-style: italic;
+    color: var(--light-color);
+}

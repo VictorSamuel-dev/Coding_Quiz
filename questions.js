@@ -1,63 +1,63 @@
  // Define a set of questions
  const questions = [
     {
-        question: "Inside which HTML element do we put the JavaScript?",
-        choices: ["a. <js>", "b. <javascript>", "c. <scripting>", "d. <script>"],
-        answer: "d. <script>"
+        question: "Which of the following symbol represents the and operator in JavaScript?",
+        choices: ["a. <>", "b. yes", "c. ||", "d. &&"],
+        answer: "d. &&"
     },
     {
-        question: "String values must be enclosed within _____ when being assigned to variables.",
-        choices: ["a. commas", "b. curly brackets", "c. quotes", "d. parenthesis"],
-        answer: "c. quotes"
+        question: "After the following code runs, what is the value of is Weekend? var isSaturday = true; var isSunday = false; var isWeekend = isSaturday || is Sunday;",
+        choices: ["a. isWeekend", "b. Value", "c. isFriday", "d. varTrue"],
+        answer: "a. isWeekend"
     },
     {
-        question: "Arrays in JavaScript can be used to store _____.",
-        choices: ["a. numbers and strings", "b. other arrays", "c. booleans", "d. all of the above"],
-        answer: "b. other arrays"
+        question: "What kind of statement allows us to run a block code only if a certain condition is true",
+        choices: ["a. if booleans", "b. if statement", "c. else if", "d. all of the above"],
+        answer: "b. if statement"
     },
     {
-        question: "Commonly used data types DO NOT include:",
-        choices: ["a. strings", "b. booleans", "c. alerts", "d. numbers"],
-        answer: "c. alerts"
+        question: "A sequence of steps that must be taken to perform a task is called a(n):",
+        choices: ["a. strings", "b. booleans", "c. alerts", "d. algorithm"],
+        answer: "d. algorithm"
     },
     {
-        question: "How do you create a function in JavaScript",
-        choices: ["a. function = myFunction()", "b. function myFunction()", "c. function:myFunction()", "d. createMyFunction()"],
-        answer: "b. function myFunction()"
+        question: "Nonessential modifiers are enclosed in...?",
+        choices: ["a. parenthese () and affects code", "b. bracket {} and affects code", "c. parentheses () and does not affect code", "d. createMyFunction()"],
+        answer: "c. parentheses () and does not affect code"
     },
     {
-        question: "How do you call a function named myFunction?",
-        choices: ["a. call myFunction()", "b. call function myFunction()", "c. myFunction()", "d. call myFunction"],
-        answer: "c. myFunctions()"
+        question: "Brackets [] in the Alphabetic index",
+        choices: ["a. bracket codes", "b. jumbo code for index", "c. code that must be listed first", "d. code to call home"],
+        answer: "c. code that must be listed first"
     },
     {
-        question: "To see if two variables are equal in an if / else statement you would use ____.",
-        choices: ["a. =", "b. ==", "c. 'equals'", "d. !="],
-        answer: "b. =="
+        question: "The increment operator is",
+        choices: ["a. *=", "b. ++", "c. 'equals'", "d. !="],
+        answer: "b. ++"
     },
     {
-        question: "The first index of an array is ____.",
-        choices: ["a. 0", "b. 1", "c. 8", "d. any"],
-        answer: "a. 0"
+        question: "What will be the value of x and y as a result of the following code? int x = 25, y =8; x += y++",
+        choices: ["a. x = 34, y = 9", "x = 33, y = 8", "c. x = 33, y = 9", "d. x = 25, y = 8"],
+        answer: "c. x = 33, y = 9"
     },
     {
-        question: "Who invented JavaScript?",
-        choices: ["a. Douglas Crockford", "b. Sheryl Sandberg", "c. Brendan Eich", "d. Ben Javascript"],
-        answer: "c. Brendan Eich"
+        question: "This variable controls the number of times that the loop iterates.",
+        choices: ["a. counter variable", "b. running total", "c. decrement variable", "d. loop control variable"],
+        answer: "c. loop control variable"
     },
     {
-        question: "How to write an IF statement in JavaScript?",
-        choices: ["a. if i == 5 then", "b. if i = 5 then", "c. if(i == 5)", "d. if i = 5"],
-        answer: "c. if(i == 5)"
+        question: "Each byte is assigned a unique",
+        choices: ["a. address", "b. cpu", "c. bit", "d. variable"],
+        answer: "a. address"
     },
     {
-        question: "How do you add a comment in a JavaScript?",
-        choices: ["a. //This is a comment", "b. <!--This is a comment-->", "c. 'This is a comment", "d. * This is a comment *"],
-        answer: "a. //This is a comment"
+        question: "The Java compiler generates____.",
+        choices: ["a. HTML", "b. machine code", "c. source code", "d. byte code"],
+        answer: "d. byte code"
     },
     {
-        question: "Which event occurs when the user clicks on an HTML element?",
-        choices: ["a. onclick", "b. onchange", "c. onmouseover", "d. onmouseclick"],
-        answer: "a. onclick"
+        question: "Which of the following expressions has the value true and does not change the value stored in the variable z",
+        choices: ["a. (3 > 6) || ((z = 10) > 100)", "b. (3 < 6) || ((z = 10) < 100) ", "c. (3 > 6) && ((z = 10) < 100)", "d. (3 < 6) && ((z = 10) < 100)"],
+        answer: "b. (3 < 6) || ((z = 10) < 100)"
     }
 ];
