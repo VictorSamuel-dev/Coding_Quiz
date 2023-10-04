@@ -43,3 +43,6 @@ THEN I can save my initials and my score
 
 # Demo
 *https://www.loom.com/share/4263601be72d4b2a9b78465c67934851?sid=1451b6c9-ff7c-4005-bf4b-23e73370b495*
+
+# Deployed
+*https://victorsamuel-dev.github.io/Coding_Quiz/*
