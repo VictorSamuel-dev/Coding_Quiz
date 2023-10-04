@@ -22,7 +22,7 @@ var everything = document.getElementById("everything");
 var highScoreSection = document.getElementById("highScoreSection");
 var finalScore = document.getElementById("finalScore");
 
-var goBackBtn = document.getElementById("goBackBtn");
+
 var clearHighScoreBtn = document.getElementById("clearHighScoreBtn"); 
 var viewHighScore = document.getElementById("viewHighScore");
 var listOfHighScores = document.getElementById("listOfHighScores");

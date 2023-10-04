@@ -43,7 +43,7 @@
     {
         question: "This variable controls the number of times that the loop iterates.",
         choices: ["a. counter variable", "b. running total", "c. decrement variable", "d. loop control variable"],
-        answer: "c. loop control variable"
+        answer: "d. loop control variable"
     },
     {
         question: "Each byte is assigned a unique",

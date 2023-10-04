@@ -22,14 +22,13 @@ function showHighScores() {
     }
 }
 
-/**
- * ADD EVENT LISTENERS
- */
 
 showHighScores();
 
 goBackBtn.addEventListener("click", function() {
     highScoreSection.style.display = "none";
+    window.location.href="highscore.html"
+    window.location.href="index.html"
 });
 
 clearHighScoreBtn.addEventListener("click", function(){
