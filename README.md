@@ -1,5 +1,4 @@
 # Coding_Quiz
-
 ```
 GIVEN I am taking a code quiz
 WHEN I click the start button
@@ -14,11 +13,22 @@ WHEN the game is over
 THEN I can save my initials and my score
 ```
 
+# Instructions 
+    1. Click Start Quiz
+        * When you click the start button, the timer for the quiz starts
+
+    2. Submit Quiz (End)
+        * Once you submit your quiz you have the ability to enter your initials to view your score
+
+    3. After Viweing Score
+        *You have the ability to see your highest score, clear score, or (click) "Go Back Button" to start the quiz over
+
+
 # Features
     - HTML;
     - CSS;
     - JavaScript (JSON);
-    -BootStrap
+    - BootStrap
     - CDN
 
 # Fonts
