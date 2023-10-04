@@ -14,20 +14,23 @@
 }
 
 /* centering */
-.flex{
+/* .flex{
+    display: flex;
+    align-items: center;
+    justify-content: center; */
+/* } */
+body{
+    font-family: 'Poppins', sans-serif;
+    color: var(--light-color);
+    background-color: var(--dark-color);
     display: flex;
     align-items: center;
     justify-content: center;
 }
-body{
-    font-family: 'Poppins', sans-serif;
-    color: var(--dark-color);
-    background-color: var(--grey-color);
-}
 
 h1, 
 h2 {
-    color: var(--dark-color);
+    color: var(--grey-color);
     font-family: 'Poppins', sans-serif;
 }
 
@@ -44,7 +47,7 @@ a:hover {
 .btn:focus, .btn:active, .btn:visited {
     outline: none !important;
     box-shadow: none !important;
-    background-color: var(--light-purple-color);
+    background-color: var(--dark-color);
 }
 
 #finalScore {
@@ -61,11 +64,17 @@ p {
 }
 
 #questionTitle {
-    font-size: 20px;
+    font-size: 30px;
     font-family: 'Poppins', sans-serif;
 }
 
 #answerCheck {
     font-style: italic;
     color: var(--light-color);
+}
+#start-quiz-button{
+    background-color: var(--light-purple-color);
+}
+#submitInitialBtn{
+    background-color: var(--light-purple-color);
 }

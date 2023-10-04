@@ -126,5 +126,54 @@ function gameOver() {
     timesUp.style.display = "block";
        // show final score
        finalScore.textContent = correctAns;
+}
+startQuizBtn.addEventListener("click", newQuiz);
+choiceA.addEventListener("click", chooseA);
+choiceB.addEventListener("click", chooseB);
+choiceC.addEventListener("click", chooseC);
+choiceD.addEventListener("click", chooseD);
+
+submitInitialBtn.addEventListener("click", function(event){ 
+    storeHighScores(event);
+});
+
+// enter initial and store highscore in local storage
+function storeHighScores(event) {
+    event.preventDefault();
+
+    // stop function is initial is blank
+    if (initialInput.value === "") {
+        alert("Please enter your initials!");
+        return;
+    } 
+
+    startDiv.style.display = "none";
+    timer.style.display = "none";
+    timesUp.style.display = "none";
+    summary.style.display = "none";  
+
+    // store scores into local storage
+    var savedHighScores = localStorage.getItem("highScores");
+    var scoresArray;
+
+    if (savedHighScores === null) {
+        scoresArray = [];
+    } else {
+        scoresArray = JSON.parse(savedHighScores)
     }
-localStorage.highScoreSection();
+
+    var userScore = {
+        initials: initialInput.value,
+        score: finalScore.textContent
+    };
+
+    console.log(userScore);
+    scoresArray.push(userScore);
+
+    // stringify array in order to store in local
+    var scoresArrayString = JSON.stringify(scoresArray);
+    window.localStorage.setItem("highScores", scoresArrayString);
+    
+    // show current highscores
+    window.location.href="highscore.html";
+}
